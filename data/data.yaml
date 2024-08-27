@@ -1,0 +1,13 @@
+train: C:\YOLO_Project\eindopdracht2\data\train\images
+val: C:\YOLO_Project\eindopdracht2\data\valid\images
+test: C:\YOLO_Project\eindopdracht2\data\test\images
+
+nc: 7
+names: ['Angry', 'Disgust', 'Fear', 'Happiness', 'Neutral', 'Sadness', 'Surprised']
+
+roboflow:
+  workspace: belkacem
+  project: facial-expression-rwslf
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/belkacem/facial-expression-rwslf/dataset/4
